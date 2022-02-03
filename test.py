@@ -1,6 +1,7 @@
-o=7
-print(o//2)
-print(o/2)
-a = 4
-f = float(a)
-print(f)
+from re import S
+
+
+st="132"
+for x in range(len(st)):
+    if st[x].isnumeric():
+        print("yes")
